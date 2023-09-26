@@ -24,7 +24,7 @@ export const SectionNumber = () => {
     )
 }
 
-const StyledSectionNumber = styled.div `
+const StyledSectionNumber = styled.section `
     min-height: 424px;
     background-color: #FAFAFA;
     display: flex;

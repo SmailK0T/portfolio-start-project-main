@@ -29,7 +29,7 @@ export const BlogPostSection = () => {
     )
 }
 
-const StyledBoxBlogPost = styled.div `
+const StyledBoxBlogPost = styled.section `
     min-height: 863px;
     display: flex;
     justify-content: center;

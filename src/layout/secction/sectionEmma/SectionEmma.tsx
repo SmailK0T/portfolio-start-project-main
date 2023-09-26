@@ -25,7 +25,7 @@ export const EmmaSection = () => {
         </StyledBoxBlogPost>
     )
 }
-const StyledBoxBlogPost = styled.div `
+const StyledBoxBlogPost = styled.section `
     min-height: 500px;
     position: relative;
 

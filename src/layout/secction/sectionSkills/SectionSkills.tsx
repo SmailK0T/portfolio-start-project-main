@@ -27,19 +27,15 @@ export const SectionSkill = () => {
         </StyleHire>
         <StyledMySkills>
             <ul>
-            <h2>My Skills</h2>
-            <li id="boxPhoto">Adobe Photoshop <span>96%</span>
-            </li>
-            <hr id="photo" />
-            <li id="boxIlust">Adobe Illustrator <span>92%</span>
-            </li>
-            <hr id="ilustra" />
-            <li id="boxAfter">Adobe After Effect <span>85%</span>
-            </li>
-            <hr id="after" />
-            <li id="boxIn">Adobe InDesign <span>94%</span>
-            </li>
-            <hr id="inDesing" />
+                <h2>My Skills</h2>
+                <li id="boxPhoto">Adobe Photoshop <span>96%</span></li>
+                <hr id="photo" />
+                <li id="boxIlust">Adobe Illustrator <span>92%</span></li>
+                <hr id="ilustra" />
+                <li id="boxAfter">Adobe After Effect <span>85%</span></li>
+                <hr id="after" />
+                <li id="boxIn">Adobe InDesign <span>94%</span></li>
+                <hr id="inDesing" />
             </ul>
         </StyledMySkills>
         </StyleSectionBox>

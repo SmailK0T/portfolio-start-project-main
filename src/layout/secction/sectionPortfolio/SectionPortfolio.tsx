@@ -26,7 +26,7 @@ export const SectionPortfolio = () => {
     )
 }
 
-const StylePortfolio = styled.div`
+const StylePortfolio = styled.section`
     max-width: 1920px;
     min-height: 1700px;
     

@@ -28,7 +28,7 @@ export const SectionWork = () => {
     )
 }
 
-const StyledSectionWork = styled.div `
+const StyledSectionWork = styled.section `
     min-height: 915px;
     background-color: #FAFAFA;
     padding: 0 217px 0 217px;
