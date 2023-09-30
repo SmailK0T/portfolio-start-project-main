@@ -5,8 +5,8 @@ import {StyleButtonSection,StyleBtuttonSectionWhite,} from "../../../componets/B
 export const SectionSkill = () => {
     return (
     <StyleSectionSkills>
-        <StyleSectionBox>
-            <img src={BgImg} alt="" />
+        <StyleSectionBox style ={ { backgroundImage: `url(${BgImg})` } }>
+            
         <StyleHire>
             <h2>Why Hire Me ?</h2>
             <p>
@@ -44,6 +44,7 @@ export const SectionSkill = () => {
 };
 
 const StyleSectionSkills = styled.section`
+    max-width: 1920px;
     min-height: 629px;
     background-color: rgba(229, 233, 237, 1);
 

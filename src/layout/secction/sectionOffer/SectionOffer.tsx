@@ -16,6 +16,7 @@ export const OfferSection = () => {
 }
 
 const StyledOffer = styled.section `
+    max-width: 1920px;
     min-height: 670px;
     padding-top: 144px;
     

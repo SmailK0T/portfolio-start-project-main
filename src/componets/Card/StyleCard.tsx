@@ -70,7 +70,7 @@ const StyleCard = styled.div`
     :hover {
         box-shadow: 0px 2px 40px 0px rgba(187, 187, 187, 0.5);
         svg {
-            stroke: red;
+            fill: red;
         }
     }
     h4 {

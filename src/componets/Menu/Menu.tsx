@@ -1,26 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+import { FlexWraper } from "../FlexWraper/FlexWraper";
 
-export const Menu = () => {
+export const Menu = (props: {menuItems: Array <string>}) => {
     return (
         <StyledMenu>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Store</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
+            <FlexWraper>
+            {props.menuItems.map((item , index) => {
+                return (<ul key={index}>
+                    <li><a href="">{item}</a></li>
+                </ul>)
+            })} 
+            </FlexWraper>
         </StyledMenu>
     )
 }
 
-const StyledMenu = styled.nav `
+
+const StyledMenu = styled.nav`
     ul {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
         list-style-type: none;
         li + li {
             margin-left: 50px;

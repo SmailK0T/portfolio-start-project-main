@@ -9,12 +9,14 @@ import { EmmaSection } from './layout/secction/sectionEmma/SectionEmma';
 import { BlogPostSection } from './layout/secction/sectionBlogPost/SectionBlogPost';
 import { SectionNumber } from './layout/secction/sectionNumber/SectionNumber';
 import { Footer } from './layout/footer/Footer';
+import { Main } from './layout/secction/main/Main';
 
 function App() {
     return (
         <div className="App">
             <StyilContainer>
                 <Header/>
+                <Main/>
                 <SectionSkill/>
                 <OfferSection/>
                 <SectionPortfolio/>
@@ -31,9 +33,6 @@ function App() {
 export default App;
 
 const StyilContainer = styled.div`
-    max-width: 1920px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
+    position: absolute;
+    z-index: -1;
 `
